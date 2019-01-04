@@ -1,0 +1,132 @@
+/* componenet/store/storeponents.wxss */
+@import '../../lib/iconfont.wxss';
+
+.container {
+  margin: 5px 0px;
+  min-height: 200px;
+  background-color: #fff;
+}
+
+.store-title {
+  display: flex;
+  flex-direction: row;
+}
+
+.title-style {
+  color: #f49b1e;
+}
+
+.iconstyle {
+  font-size: 24px;
+  color: #f49b1e;
+}
+
+.title-txt {
+  margin-top: 2px;
+  font-size: 14px;
+  color: #bcbcbc;
+}
+
+.store-object{
+  position: relative;
+}
+.guanzhu{
+  background: rgba(11, 9, 9, 0.5);
+  width: 120px;
+  height: 30px;
+  position: absolute;
+  z-index: 100;
+  right: 10px;
+  top:10px;
+  color: #fff;
+  padding-top: 6px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 13px;
+}
+
+.store-name {
+  margin-left: 20px;
+}
+
+.store-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.shop-backet {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: #f00;
+  border-radius: 40px;
+}
+
+.shop-backet>text {
+  color: #fff;
+  font-size: 50px;
+}
+
+.store-price {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.ore-price-new {
+  color: #f00;
+  font-family: '微软雅黑';
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.ore-price-old {
+  text-decoration: line-through;
+  font-family: '微软雅黑';
+  font-size: 20px;
+  color: #bcbcbc;
+}
+
+.store-linespeater {
+  margin: 15px 10px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.store-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 10px;
+  height: 60px;
+}
+
+.store-footer-mainleft {
+  display: flex;
+  flex-direction: column;
+}
+
+.store-footer-left {
+  display: flex;
+  flex-direction: row;
+  font-family: "微软雅黑";
+  font-size: 16px;
+}
+
+.store-footer-right {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  color: #999;
+  font-size: 16px;
+}
+
+.store-shuoming {
+  margin: 5px;
+  text-align: center;
+}

@@ -1,0 +1,45 @@
+<import src="../card-template/card-template.wxml" />
+
+<view class='container-evaluating'>
+
+  <scroll-view id='scrollView-id' scroll-left="{{scrollLeft}}" class='scrollView' scroll-x style="width: 100%">
+    <view class='normalBtn' wx:for="{{dataArr}}" wx:for-index='index'>
+      <view id="id{{index+1}}" class="normalBtn {{status == (index+1) ? 'selected' : '' }}" catchtap='btnClick' data-id="{{index+1}}">{{item}}</view>
+    </view>
+  </scroll-view>
+
+  <view class='bottomScrView'>
+    <swiper duration='5' current="{{currentIndex}}" class='swiper-card' bindchange='changeIndex' vertical="{{false}}" style='height:{{scrHeight-39}}px'>
+      <swiper-item class='one'>
+        <scroll-view scroll-y='true' style='height:{{scrHeight-38}}px'>
+          <template is="cardTemplate" />
+          <template is="cardTemplate" />
+          <template is="cardTemplate" />
+          <template is="cardTemplate" />
+          <template is="cardTemplate" />
+          <template is="cardTemplate" />
+        </scroll-view>
+      </swiper-item>
+      <swiper-item>
+        <template is="cardTemplate" />
+      </swiper-item>
+      <swiper-item>
+        <template is="cardTemplate" />
+      </swiper-item>
+      <swiper-item>
+        <template is="cardTemplate" />
+      </swiper-item>
+      <swiper-item>
+        <template is="cardTemplate" />
+      </swiper-item>
+      <swiper-item>
+        <template is="cardTemplate" />
+      </swiper-item>
+      <swiper-item>
+        <template is="cardTemplate" />
+      </swiper-item>
+    </swiper>
+
+  </view>
+
+</view>

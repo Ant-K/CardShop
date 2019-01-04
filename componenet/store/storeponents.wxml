@@ -1,0 +1,46 @@
+<!--componenet/store/storeponents.wxml-->
+
+<view class='container'>
+  <view class='store-title'>
+    <text class='iconfont icon-- iconstyle'></text>
+    <text class='title-txt'>本商品由厂家直接提供</text>
+  </view>
+  <view class='store-object'>
+    <view class='guanzhu'><text>关注人数：32</text></view>
+    <image style="width: 100%; height: 200px; background-color: #eeeeee;" src='https://developers.weixin.qq.com/miniprogram/dev/image/cat/0.jpg?t=18122815' mode='scaleToFill'></image>
+  </view>
+  <view class='store-name'>
+    <text>小猫咪一个</text>
+  </view>
+  <view class='store-details'>
+    <view class='store-price'>
+      <text class='ore-price-new'><text class='iconfont icon-renminbi' style='font-size:25px;'></text>3.5</text>
+      <text class='ore-price-old'><text class='iconfont icon-renminbi' style='font-size:15px;'></text>5</text>
+    </view>
+    <view class='shop-backet'>
+      <text class='iconfont icon-gouwuchekong'></text>
+    </view>
+  </view>
+  <!--分割线-->
+  <view class='store-linespeater'>
+  </view>
+  <view class='store-footer'>
+    <view class='store-footer-mainleft'>
+      <view class='store-footer-left'>
+        <text>预售时间：</text>
+        <text>12月28</text>
+      </view>
+      <view class='store-footer-left'>
+        <text>提货时间：</text>
+        <text>12月29</text>
+      </view>
+    </view>
+    <view class='store-footer-right'>
+       <progress percent="60" border-radius="6px" stroke-width="14" activeColor="#f49b1e" />
+       <view class='store-shuoming'>
+        <text>累计1份/剩余9份</text>
+       </view>
+    </view>
+  </view>
+  
+</view>

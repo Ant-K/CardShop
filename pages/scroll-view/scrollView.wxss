@@ -1,0 +1,38 @@
+@import "../card-template/card-template.wxss";
+
+.scrollView {
+  height: 90rpx;
+  background-color: white;
+  white-space: nowrap;
+  border-top: 1rpx solid #f0f0f0;
+  box-shadow:0px 2px 5px 5px red;
+}
+
+.normalBtn {
+  font-size: 30rpx;
+  text-align: center;
+  line-height: 90rpx;
+  height: 88rpx;
+  width: 150rpx;
+  display: inline-block;
+}
+
+.normalBtn.selected {
+  color: #f49b1e;
+  font-weight: bold;
+  border-bottom: 2rpx solid #f49b1e;
+}
+
+.bottomScrView {
+}
+
+.swiper-card {
+  padding: 5rpx 40rpx 0rpx 40rpx;
+  background-color: #fff;
+}
+
+/*bottomScrView  */
+
+.bottomScrView .one {
+  background-color: #fff;
+}

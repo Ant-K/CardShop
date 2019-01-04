@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-component": "../../componenet/shop/shopcomponent",
+    "store": "../../componenet/store/storeponents"
+  }
+}

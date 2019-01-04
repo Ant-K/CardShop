@@ -1,0 +1,6 @@
+<template name='cardTemplate'>
+  <view catchtap='checkHealthItem' class='card-container'>
+    <text class='iconfont icon-xiaoxizhongxin' style='font-size:90rpx;'></text>
+    <text class='joinCount'>77164人已参加</text>
+  </view>
+</template>

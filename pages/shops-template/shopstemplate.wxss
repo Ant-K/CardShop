@@ -1,0 +1,9 @@
+/* pages/shops-template/shopstemplate.wxss */
+.main{
+  background-color: #ff000f;
+}
+.shop{
+  color: #fff;
+  font-size: 30rpx;
+  background-color: #000;
+}

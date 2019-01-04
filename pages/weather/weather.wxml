@@ -1,0 +1,22 @@
+<!--pages/weather/weather.wxml-->
+<view class='main'>
+  <view class='top'>
+    <view class='top-left'>
+    </view>
+    <view class='top-right'>
+      <view class='top-right-top'>
+        <text>套大庆店铺</text>
+      </view>
+      <view class='top-right-buttom'>
+        <text>地址：合肥市望江西路同阿华东师范第三方水电费</text>
+      </view>
+
+    </view>
+  </view>
+  <view>
+    <view class="container">
+      <store></store>
+      <store></store>
+    </view>
+  </view>
+</view>

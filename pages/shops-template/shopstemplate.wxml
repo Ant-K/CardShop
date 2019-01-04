@@ -1,0 +1,17 @@
+<!--pages/shops-template/shopstemplate.wxml-->
+  <view class='main'>
+    <view class='shop-title'>
+      <text class='iconfont icon--' style='font-size:60rpx;color:#f49b1e;'></text>
+      <text class="shop">本商品由厂家直接提供</text>
+    </view>
+    <view class='shop-iamge'>
+      <text class='iconfont icon-xiaoxizhongxin' style='font-size:90rpx;'></text>
+    </view>
+    <view class='shop-detaile'>
+      <text class='iconfont icon-xiaoxizhongxin' style='font-size:90rpx;'></text>
+    </view>
+    <view class='shop-footer'>
+      <text class='joinCount'>77164人已参加</text>
+      <text class='iconfont icon-gouwuchekong' style='font-size:90rpx;'></text>
+    </view>
+  </view>
