@@ -3,21 +3,21 @@
 <view class='container'>
   <view class='store-title'>
     <text class='iconfont icon-- iconstyle'></text>
-    <text class='title-txt'>本商品由厂家直接提供</text>
+    <text class='title-txt'>{{shuoming}}</text>
   </view>
   <view class='store-object'>
-    <view class='guanzhu'><text>关注人数：32</text></view>
+    <view class='guanzhu'><text>关注人数：{{guanzhu}}</text></view>
     <image style="width: 100%; height: 200px; background-color: #eeeeee;" src='https://developers.weixin.qq.com/miniprogram/dev/image/cat/0.jpg?t=18122815' mode='scaleToFill'></image>
   </view>
   <view class='store-name'>
-    <text>小猫咪一个</text>
+    <text>{{goodsName}}</text>
   </view>
   <view class='store-details'>
     <view class='store-price'>
-      <text class='ore-price-new'><text class='iconfont icon-renminbi' style='font-size:25px;'></text>3.5</text>
-      <text class='ore-price-old'><text class='iconfont icon-renminbi' style='font-size:15px;'></text>5</text>
+      <text class='ore-price-new'><text class='iconfont icon-renminbi' style='font-size:25px;'></text>{{newPrice}}</text>
+      <text class='ore-price-old'><text class='iconfont icon-renminbi' style='font-size:15px;'></text>{{oldPrice}}</text>
     </view>
-    <view class='shop-backet'>
+    <view bindtap='testMethod' class='shop-backet' >
       <text class='iconfont icon-gouwuchekong'></text>
     </view>
   </view>
@@ -28,11 +28,11 @@
     <view class='store-footer-mainleft'>
       <view class='store-footer-left'>
         <text>预售时间：</text>
-        <text>12月28</text>
+        <text>{{yushoudate}}</text>
       </view>
       <view class='store-footer-left'>
         <text>提货时间：</text>
-        <text>12月29</text>
+        <text>{{tihuodate}}</text>
       </view>
     </view>
     <view class='store-footer-right'>
